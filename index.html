@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BusMall Store</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>BusMall</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="item_dropdown">
+          <h1>Select Your Item(s)</h1>
+          <select id="product">
+            <option value="bag.jpg">R2-D2 Roller Bag</option>
+            <option value="banana.jpg">Banana Slicer</option>
+            <option value="bathroom.jpg">Bathroom Tablet Stand</option>
+            <option value="boots.jpg">Breathable Rain Boots</option>
+            <option value="breakfast.jpg">All-in-One Breakfast Machine</option>
+            <option value="bubblegum.jpg">Meatball Flavored Gum</option>
+            <option value="chair.jpg">Start Sitting Less Chair</option>
+            <option value="cthulhu.jpg">CTHULHU R'LYEH FHTAGN</option>
+            <option value="dog-duck.jpg">Duck Mask for Dogs</option>
+            <option value="dragon.jpg">Dragon Meat</option>
+            <option value="pen.jpg">Pen-Cap Utensils</option>
+            <option value="pet-sweep.jpg">Pet Hair Sweepers</option>
+            <option value="scissors.jpg">Pizza Scissors</option>
+            <option value="shark.jpg">Shark Sleeping Bag</option>
+            <option value="sweep.png">Sweeping Baby Onesie</option>
+            <option value="tauntaun.jpg">Children's Tauntaun Sleeping Bag</option>
+            <option value="unicorn.jpg">Unicorn Meat</option>
+            <option value="usb.gif">Tentacle USB</option>
+            <option value="water-can.jpg">Self Watering Water Can</option>
+            <option value="wine-glass.jpg">Super Gulp Wine Glass</option>
+          </select>
+          <form id="numberWanted">
+            Quantity:<br>
+            <input type="number" name="quantity" placeholder="1">
+        </div>
+        <div class="btn">
+          <button id="crtbtn" type="button">Add to Cart</button>
+      </section>
+
+      <section>
+        <div class="shipping_info">
+          <h2>Please Enter Your Shipping Address</h2>
+          <form id="address">
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="First Name"><br>
+            <input type="text" name="street" placeholder="Street Address"><br>
+            <input type="text" name="city" placeholder="City">
+            <input type="text" name="state" placeholder="State">
+            <input type="text" name="zip" placeholder="Zip Code"><br>
+            <input type="text" name="phone" placeholder="Phone Number">
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <div class="payment_info">
+          <h3>Please Enter Your Payment Information</h3>
+          <form id="creditcard">
+            <input type="number" name="creditcard" placeholder="Credit Card Number">
+        </div>
+      </section>
+
+      <section>
+        <div class="checkout">
+          <button id="checkbtn" type="button">Checkout</button>
+        </div>
+      </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
